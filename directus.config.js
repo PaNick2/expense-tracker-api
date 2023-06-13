@@ -23,7 +23,7 @@ module.exports = function (env) {
         DB_PASSWORD: env.PGPASSWORD,
 
         CORS_ORIGIN:env.CORS_ORIGIN,
-        CORS_ALLOWED_HEADERS:env.CORS_ALLOWED_HEADERS,
+        CORS_ALLOWED_HEADERS:'Origin, X-Api-Key, X-Requested-With, content-type, Accept, Authorization',
         CORS_ENABLED:env.CORS_ENABLED,
     };
 };
