@@ -21,5 +21,9 @@ module.exports = function (env) {
         DB_DATABASE: env.PGDATABASE,
         DB_USER: env.PGUSER,
         DB_PASSWORD: env.PGPASSWORD,
+
+        CORS_ORIGIN:env.CORS_ORIGIN,
+        CORS_ALLOWED_HEADERS:env.CORS_ALLOWED_HEADERS,
+        CORS_ENABLED:env.CORS_ENABLED,
     };
 };
